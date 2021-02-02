@@ -1,39 +1,48 @@
-body{
-  background-color: #1c2833 ;
+body {
+  background-color: #1c2833;
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
 }
-section{
+
+section {
   margin-bottom: 40px;
 }
-.about-me-img{
+
+.about-me-img {
   border: solid 5px white;
   border-radius: 100%;
   margin-right: 15px;
   float: left;
   width: 200px;
 }
-.color1{
+
+.color1 {
   color: #f0a500;
 }
-.color2{
+
+.color2 {
   color: #85c1e9;
 }
-.color3{
+
+.color3 {
   color: #ff66c3;
 }
-.color-ee{
+
+.color-ee {
   color: #1c2833;
 }
-.contact a{
+
+.contact a {
   text-decoration: none;
   margin: 5px;
 }
-.contact input{
+
+.contact input {
   width: 90%;
   border: none;
 }
-.contact label{
+
+.contact label {
   padding-left: 10px;
   width: 90%;
   color: white;
@@ -42,13 +51,15 @@ section{
   margin: 0;
   font-size: 1.2rem;
 }
-.contact textarea{
+
+.contact textarea {
   box-sizing: border-box;
   width: 90%;
   border: none;
   margin: 0;
 }
-.contact-social-icon{
+
+.contact-social-icon {
   margin: 5px 0;
   display: inline-flex;
   color: #ff66c3;
@@ -57,18 +68,21 @@ section{
   padding: 5px;
   line-height: 1;
 }
-.contact-social-text{
+
+.contact-social-text {
   padding: 5px 10px;
   margin-bottom: 0;
   font-family: 'Bebas Neue', cursive;
 }
-.contact-submit{
+
+.contact-submit {
   margin: 0 0 30px 0;
   font-family: 'Bebas Neue', cursive;
   color: #ff66c3;
   background-color: #85c1e9;
 }
-.footer{
+
+.footer {
   text-align: center;
   position: static;
   bottom: 0;
@@ -76,66 +90,81 @@ section{
   margin-bottom: 0;
   padding: 10px;
 }
-.footer p{
+
+.footer p {
   display: inline-flex;
   margin: 5px 10px;
 }
-.highlighted{
+
+.highlighted {
   background-color: #ff66c3;
 }
-.main{
+
+.main {
   margin-top: 60px;
 }
-.navbar{
+
+.navbar {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
   opacity: 90%;
 }
+
 .navbar-light .navbar-nav .nav-link {
-    color: #85c1e9;
+  color: #85c1e9;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #ff66c3;
+  color: #ff66c3;
 }
-.no-pad{
+
+.no-pad {
   padding: 0;
 }
-.project img{
+
+.project img {
   border: solid 4px #1c2833;
   width: 100%;
 }
-.project p{
+
+.project p {
   color: white;
   text-align: center;
   background-color: #1c2833;
   padding: 5px 0 15px 0;
   text-decoration: underline;
 }
-.projects-bar{
+
+.projects-bar {
   border: solid 5px white;
   padding: 5px 0 5px 0;
   margin: 20px 0;
 }
-.projects-bar i{
+
+.projects-bar i {
   color: white;
   float: right;
   font-size: 3rem;
   margin-right: 0;
 }
-.projects-bar p{
+
+.projects-bar p {
   display: inline-flex;
   font-family: 'Bebas Neue', cursive;
   font-size: 2rem;
   margin: 0 0 0 10px;
 }
-.projects-div{
+
+.projects-div {
   padding: 30px inherit 30px inherit;
   background-color: #3c6a8c;
 }
-.projects i:hover{
+
+.projects i:hover {
   color: #ff66c3;
 }
-.section-title{
+
+.section-title {
   display: inline-block;
   border: solid 3px white;
   font-family: 'Bebas Neue', cursive;
@@ -144,25 +173,31 @@ section{
   line-height: 1;
   padding: 5px;
 }
-.skills a{
+
+.skills a {
   margin: auto 10px 10px 0;
 }
-.skill-icon{
+
+.skill-icon {
   font-size: 4.5em;
   color: white;
 }
-.skill-icon:hover{
+
+.skill-icon:hover {
   color: #85c1e9
 }
-.welcome{
+
+.welcome {
   height: 100vh;
-  padding-top: 33vh;
+  padding-top: 25vh;
 }
-.welcome-bg{
+
+.welcome-bg {
   height: 100vh;
   background-image: url(images/bg.jpg);
 }
-.w-text{
+
+.w-text {
   display: inline-block;
   background-color: white;
   font-family: 'Bebas Neue', cursive;
@@ -170,23 +205,43 @@ section{
   line-height: 1;
   margin: 5px;
 }
-.w-title{
+
+.w-title {
   color: #f0a500;
   font-size: 6em;
 }
-.w-subtitle{
+
+.w-subtitle {
   color: #85c1e9;
   font-size: 3em;
 }
-@media only screen and (max-width: 500px){
-  .welcome{
+
+@media only screen and (max-width: 700px) {
+  .welcome {
     padding-top: 30vh;
   }
-  .w-title{
+  .w-title {
     font-size: 3em;
   }
-  .w-subtitle{
-    color: #85c1e9;
+  .w-subtitle {
     font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .welcome-bg {
+    height: auto;
+    background-image: url(images/bg.jpg);
+  }
+  .welcome {
+    height: auto;
+    padding-top: 100px;
+  }
+  .w-title {
+    font-size: 3.5em;
+  }
+
+  .w-subtitle {
+    font-size: 2em;
   }
 }
