@@ -180,7 +180,13 @@ section{
 }
 @media only screen and (max-width: 500px){
   .welcome{
-    height: 100vh;
-    padding-top: 10vh;
+    padding-top: 30vh;
+  }
+  .w-title{
+    font-size: 3em;
+  }
+  .w-subtitle{
+    color: #85c1e9;
+    font-size: 1.5em;
   }
 }
